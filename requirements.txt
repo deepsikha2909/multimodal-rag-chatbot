@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+google-genai
+PyMuPDF
+pytesseract
+Pillow
+python-docx
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-google-genai
+langchain-core
+sentence-transformers
