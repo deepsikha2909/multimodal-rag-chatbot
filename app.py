@@ -192,6 +192,23 @@ section[data-testid="stSidebar"] {
     border-radius: 12px;
 }
 
+/* Chat message text visibility */
+
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"],
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] li {
+    color: #183B3B !important;
+}
+
+/* Chat message headings and bold text */
+
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] strong,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h1,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h2,
+[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] h3 {
+    color: #124E50 !important;
+}
+
 /* Divider */
 
 hr {
